@@ -1,12 +1,13 @@
-import './App.css'
+import "./App.css";
+import React from 'react';
 
-function App() {
+import LoginInfo from './pages/LoginInfo'
+import Dropdown from './components/Accordion/Dropdown'
 
+const App = () => {
   return (
-    <>
-      <h1 className='text-5xl'>Hello kalibutan</h1>
-    </>
-  )
-}
+    <LoginInfo />
+  );
+};
 
-export default App
+export default App;
