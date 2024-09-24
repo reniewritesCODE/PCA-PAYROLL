@@ -1,8 +1,16 @@
 import React from 'react'
+import { ConfirmButton } from '../components/Accordion/button'
+import { CancelButton } from '../components/Accordion/button'
 
 const Payroll = () => {
   return (
-    <div className='w-screen h-screen bg-white_base'>Payroll</div>
+    <>
+      <form action="">
+        <label htmlFor="">
+          <input type="week" />
+        </label>
+      </form>
+    </>
   )
 }
 
