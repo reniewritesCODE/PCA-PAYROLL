@@ -1,14 +1,14 @@
 import "./App.css";
 import React from 'react';
 
-
-import LoginInfo from './pages/LoginInfo'
-import Dropdown from './components/Dropdown'
+import DesignationPopUp from './components/DesignationPopUp'
 
 
 const App = () => {
   return (
-    <LoginInfo />
+    <div className="flex h-screen w-screen justify-center items-center">
+        <DesignationPopUp></DesignationPopUp>
+    </div>
   );
 };
 
